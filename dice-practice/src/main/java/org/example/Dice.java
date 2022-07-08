@@ -26,6 +26,7 @@ public enum Dice {
         int min = 1;
         int max = Maxvalue;
         int randomNum = min + random.nextInt(max);
+        System.out.println("random number is: " + randomNum);
         return randomNum;
     }
 }
